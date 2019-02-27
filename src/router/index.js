@@ -25,6 +25,7 @@ export default new Router({
       path: '/china',
       name: 'China',
       component: () => import('@/components/RouterChina'),
+      // 假装我修补了一个hotFix
       children: [
         {
           path: '/',
