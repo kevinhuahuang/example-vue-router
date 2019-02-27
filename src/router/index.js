@@ -25,6 +25,9 @@ export default new Router({
       path: '/china',
       name: 'China',
       component: () => import('@/components/RouterChina'),
+      beforeEnter: (to, from, next) => {
+        // 路由独享的守卫
+      },
       children: [
         {
           path: '/',
