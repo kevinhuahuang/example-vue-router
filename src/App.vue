@@ -37,6 +37,7 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
   margin-right: auto;
+  margin-left: auto;
   width: 600px;
   left: 0;
   right: 0;
